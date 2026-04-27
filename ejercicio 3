@@ -1,0 +1,9 @@
+ public int nivel = 10;
+
+
+
+
+if (nivel >= 10)
+    print("puedes entrar a la mazmorra, has entrenado bien :)");
+else if (nivel < 10)
+    print("no puedes entrar a la mazmorra, vuelve a entrenar :(");
