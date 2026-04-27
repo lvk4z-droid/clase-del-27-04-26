@@ -1,0 +1,29 @@
+using UnityEngine;
+//ejercicio 6
+public class Ejercicio6 : MonoBehaviour
+{
+    public bool tieneArma;
+    public bool tieneMunicion;
+    public bool estaAturdido;
+
+
+
+
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        if (tieneArma && tieneMunicion == true && estaAturdido == false)
+            print("Puede atacar");
+        
+
+
+
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
