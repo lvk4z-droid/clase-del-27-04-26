@@ -1,9 +1,46 @@
- public int nivel = 10;
+using System.Diagnostics;
+using UnityEngine;
+
+//del 1 al 10
 
 
 
 
-if (nivel >= 10)
-    print("puedes entrar a la mazmorra, has entrenado bien :)");
-else if (nivel < 10)
-    print("no puedes entrar a la mazmorra, vuelve a entrenar :(");
+public class GameManager : MonoBehaviour
+{  
+    //3
+    public int nivel = 10;
+
+    void Start()
+    {
+
+
+         if (nivel >= 10)
+             print("puedes entrar a la mazmorra, has entrenado bien :)");
+         else if (nivel < 10)
+             print("no puedes entrar a la mazmorra, vuelve a entrenar :(");
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+    
+    // Update is called once per frame
+    void Update()
+    {
+        
+
+
+
+
+    }
+}
