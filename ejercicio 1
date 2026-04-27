@@ -9,24 +9,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {   //1
     public int vida = 100;
-    //2
-    //public int puntaje = 10;
-    //3
-    //public int nivel = 10;
-    //4
-    //public int velocidad = 100;
-    //5
-    //
-    //6
-    //
-    //7
-    //
-    //8
-    //
-    //9
-    //
-    //10
-    //
+   
     void Start()
     {
 
@@ -38,32 +21,7 @@ public class GameManager : MonoBehaviour
             print("El jugador ha muerto");      
 
 
-        //if (puntaje < 100)
-        //    print("NOVATO");
-        //else if (puntaje < 300)
-        //    print("INTERMEDIO");
-        //else if (puntaje < 600)
-        //    print("AVANZADO");
-        //else if (puntaje >= 600)
-        //    print("ELITE");
-
-
-
-        // if (nivel >= 10)
-        //     print("puedes entrar a la mazmorra");
-        // else if (nivel < 10)
-        //     print("no puedes entrar a la mazmorra");
-
-
-
-
-
-
-
-
-
-
-
+      
 
 
     }
