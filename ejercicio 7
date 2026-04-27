@@ -1,0 +1,27 @@
+using UnityEngine;
+
+public class Ejercicio6 : MonoBehaviour
+{
+    public bool tienePocion;
+    public bool zonaSegura;
+    public bool estaVivo;
+
+
+
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        if (tienePocion && zonaSegura && estaVivo == true)
+            print("Puedes curarte");
+
+
+
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
