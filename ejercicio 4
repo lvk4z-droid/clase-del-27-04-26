@@ -1,0 +1,42 @@
+using System.Diagnostics;
+using UnityEngine;
+
+//del 1 al 10
+
+
+
+
+public class GameManager : MonoBehaviour
+{   
+    //4
+    public int velocidad = 0;
+ 
+    void Start()
+    {
+
+
+        if (velocidad == 0)
+            print("detenido");
+        else if (velocidad >= 1 && velocidad <= 10)
+            print("caminando");
+        else if (velocidad > 10 && velocidad <= 30)
+            print("corriendo");
+        else if (velocidad > 30 && velocidad <= 40)
+            print("sprint");
+
+
+
+
+
+    }
+    
+    // Update is called once per frame
+    void Update()
+    {
+        
+
+
+
+
+    }
+}
